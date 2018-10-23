@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="OpenFile" layoutX="54.0" layoutY="59.0" mnemonicParsing="false" onAction="#openfile" text="选择文件" />
+      <TextField fx:id="FilePath" layoutX="139.0" layoutY="59.0" prefHeight="23.0" prefWidth="413.0" />
+      <Label layoutX="62.0" layoutY="113.0" text="拆分设置" />
+      <Label layoutX="139.0" layoutY="109.0" prefHeight="23.0" prefWidth="36.0" text="拆分表" />
+      <Label layoutX="139.0" layoutY="255.0" text="拆分行数" />
+      <Label layoutX="139.0" layoutY="185.0" text="标题行数" />
+      <ComboBox fx:id="ChooseSheet" layoutX="139.0" layoutY="143.0" prefWidth="150.0" />
+      <TextField fx:id="TitleCount" layoutX="139.0" layoutY="211.0" prefHeight="23.0" prefWidth="150.0" />
+      <TextField fx:id="SplitCount" layoutX="139.0" layoutY="285.0" prefHeight="23.0" prefWidth="150.0" />
+      <Button fx:id="Split" layoutX="54.0" layoutY="326.0" mnemonicParsing="false" onAction="#split" prefHeight="23.0" prefWidth="64.0" text="拆分" />
+      <Label layoutX="526.0" layoutY="371.0" text="By 唐一鸣" />
+   </children>
+</Pane>
